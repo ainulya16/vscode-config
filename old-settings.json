@@ -1,0 +1,155 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 15,
+    "editor.renderWhitespace": "all",
+    "editor.multiCursorModifier": "alt",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#00E5E5",
+        "terminalCursor.foreground": "#00E5E5",
+        "tab.activeBorder": "#00E5E5",
+        "list.inactiveSelectionForeground": "#00E5E5",
+        "list.activeSelectionBackground": "#00a6a9"
+    },
+    "editor.lineHeight": 20,
+    // "editor.fontLigatures": true,
+    "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero'",
+    "editor.tabSize": 2,
+    "editor.accessibilitySupport": "off",
+    "editor.fontWeight": "400",
+    "dart.flutterSdkPath": "/Users/ainul/Documents/Development/FlutterSDK",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "debug.console.fontSize": 13,
+    "editor.overviewRulerBorder": true,
+    "terminal.integrated.fontSize": 16,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.settings.useSplitJSON": true,
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    "scm.inputFontSize": 13,
+    "json.schemas": [
+    
+    ],
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.editorAssociations": {
+        "*.sql": "default"
+    },
+    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "editor.fontFamily": "Fira Code",
+    "terminal.integrated.automationProfile.windows": {
+        "path": "C:\\Program Files\\Git\\git-bash.exe"
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "security.workspace.trust.untrustedFiles": "open",
+    "cSpell.userWords": [
+        "kartanu"
+    ],
+    "terminal.integrated.automationProfile.osx": {},
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.automationProfile.linux": {},
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "terminal.integrated.fontWeight": "normal",
+    "highlight.regexes": {
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#ffcc00",
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc0000",
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#00ccff",
+                    "backgroundColor": "#00ccff",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#00ccff",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc00cc",
+                    "backgroundColor": "#cc00cc",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc00cc",
+                    "color": "#1f1f1f"
+                }
+            ]
+        }
+    },
+    "workbench.settings.applyToAllProfiles": [],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/tmp": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/bower_components/**": true,
+        "**/dist/**": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false
+}
