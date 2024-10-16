@@ -125,7 +125,7 @@
 .search-label {
     font-family: "Geist Mono", "JetBrains Mono", "Fira Code", Menlo, Monaco, "Courier New", monospace !important;
     font-size: 14px !important;
-    color: #fff;
+/*     color: #fff; */
     display: block;
 }
 
