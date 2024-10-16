@@ -38,8 +38,8 @@
 
 /* List item label name */
 .monaco-list.list_id_1 .monaco-list-row.selected .label-name {
-/*     color: #fff !important; */
-    opacity: 1 !important;
+    color: #fff !important;
+    opacity: 0.83 !important;
 }
 
 /* File explorer action buttons */
