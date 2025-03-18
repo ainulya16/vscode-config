@@ -157,6 +157,24 @@
     border-radius: 20px !important;
 }
 
+/* Backdrop overlay */
+#command-blur {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
+    top: 0;
+    left: 0;
+    z-index: 999; /* Ensure it’s behind the command palette */
+    display: none; /* Hidden by default */
+}
+
+/* Show the backdrop when Quick Input widget is visible */
+.quick-input-widget:has(.quick-input-box) ~ #command-blur {
+    display: block;
+}
+
 /* Remove background for lists */
 .monaco-list-rows {
     background: transparent !important;
